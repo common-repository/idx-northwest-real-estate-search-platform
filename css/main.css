@@ -1,0 +1,482 @@
+﻿/*
+ALWAYS BACKUP THIS CSS FILE BEFORE UPGRADING TO A NEW VERSION OF THE PLUGIN,
+BECAUSE THIS FILE WILL BE OVERWRITTEN BY THE DEFAULT FILE UPON INSTALLATION!
+*/
+
+/* Import several universal font families from the Google Fonts API */
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+/* CSS for the "[IDXNW] Sidebar Quick Search" widget */
+.idxnw-qsb-div {
+	width:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	margin-bottom:10px;
+	}
+
+.idxnw-qsb-table {
+	border-collapse:collapse;
+	width:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	}
+
+.idxnw-qsb-tr {
+	border-collapse:collapse;
+	width:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	}
+
+.idxnw-qsb-tbox {
+	background: #F4F4F4 !important;
+	color: #555555;
+	font-family: 'Oswald', Georgia, Times New Roman, Trebuchet MS;
+	font-size: 12px;
+	font-style: italic;
+	margin: 0 5px 0 0;
+	padding: 3px 0 3px 4px;
+	border: 1px solid #DDDDDD;
+	}
+
+.idxnw-qsb-tbox:focus {
+	box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	-webkit-box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	-moz-box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	-o-box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	-ms-box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	transition: all 0.30s ease-in-out;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	border:1px solid rgba(99,99,200, 0.8);
+	}
+
+.idxnw-qsb-ddown {
+	background: #F4F4F4 !important;
+	color: #666666;
+	font-family: 'Oswald', Georgia, Times New Roman, Trebuchet MS;
+	font-size: 12px;
+	font-style: italic;
+	margin: 0 5px 0 0;
+	padding: 3px 0 3px 4px;
+	border: 1px solid #DDDDDD;
+	width:100%;
+	}
+
+.idxnw-qsb-text {
+	color: #666666;
+	font-family: 'Oswald', Georgia, Times New Roman, Trebuchet MS;
+	font-size: 12px;
+	}
+
+.idxnw-qsb-submit {
+	background: #555555;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: 'Oswald', Georgia, Times New Roman, Trebuchet MS;
+	text-decoration: none;
+	text-transform: uppercase;
+    margin: 0;
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #555555;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	}
+
+.idxnw-qsb-submit:hover {
+	background: #888888;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: 'Oswald', Georgia, Times New Roman, Trebuchet MS;
+	text-decoration: none;
+	text-transform: uppercase;
+    margin: 0;
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #555555;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	}
+
+/* CSS for the "[IDXNW] Sidebar Quick Search 2" widget */
+.idxnw-qsb2-div {
+	width:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	margin-bottom:10px;
+	}
+
+.idxnw-qsb2-table {
+	border-collapse:collapse;
+	width:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	}
+
+.idxnw-qsb2-tr {
+	border-collapse:collapse;
+	width:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	}
+
+.idxnw-qsb2-tbox {
+	width:210px;
+	background: #F9F9F9 url(/wp-content/plugins/idx-northwest-real-estate-search-platform/images/idxnw-mtsb-small2-submit.png) no-repeat 0 0;
+	color: #333333;
+	font-family: Arial, Tahoma, Verdana;	
+	font-size: 11px;
+	margin: 6px 0 0 0;
+	padding: 6px 0 6px 10px;
+	float: left;
+	border: 1px solid #B2B2B2;	
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-topleft: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-top-left-radius: 6px;	
+	-webkit-background-clip: padding-box;	
+	-webkit-background-origin: padding-box;	
+	}
+
+.idxnw-qsb2-ddown {
+	width:100%;
+	background: #F9F9F9 url(/wp-content/plugins/idx-northwest-real-estate-search-platform/images/idxnw-mtsb-small2-submit.png) no-repeat 0 0;
+	color: #333333;
+	font-family: Arial, Tahoma, Verdana;	
+	font-size: 11px;
+	margin: 6px 0 0 0;
+	padding: 6px 0 6px 10px;
+	float: left;
+	border: 1px solid #B2B2B2;	
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-topleft: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-top-left-radius: 6px;	
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-top-right-radius: 6px;	
+	-webkit-background-clip: padding-box;	
+	-webkit-background-origin: padding-box;	
+	}
+
+.idxnw-qsb2-text {
+	color: #666666;
+	font-family: 'Oswald', Georgia, Times New Roman, Trebuchet MS;
+	font-size: 12px;
+	}
+
+.idxnw-qsb2-submit {
+	background: #404040 url(/wp-content/plugins/idx-northwest-real-estate-search-platform/images/idxnw-mtsb-small2-submit.png) no-repeat 0 -40px ;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-family: Arial, Tahoma, Verdana;
+	text-decoration: none;
+	text-transform: uppercase;
+    margin: 6px 0 0 0;
+	padding: 0;
+	height: 28px;
+	width: 28px;
+	text-indent: -9999px;
+	border: 1px solid #333333;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-top-right-radius: 6px;	
+	-webkit-background-clip: padding-box;	
+	-webkit-background-origin: padding-box;
+	}
+
+.idxnw-qsb2-submit:hover {
+	cursor: pointer;	
+	background: #111111 url(/wp-content/plugins/idx-northwest-real-estate-search-platform/images/idxnw-mtsb-small2-submit.png) no-repeat 0 -40px ;
+	border: 1px solid #222222;
+	}
+
+/* CSS for the "[IDXNW] Multitype Search Box - Small" widget */
+.idxnw-mtsb-small-div {
+	width:100%;
+	margin-top:8px;
+	}
+
+.idxnw-mtsb-small-tbox {
+	width:210px;
+	background: #F4F4F4 !important;
+	color: #555555;
+	font-family: 'Oswald', Georgia, Times New Roman, Trebuchet MS;
+	font-size: 12px;
+	font-style: italic;
+	margin: 0 5px 0 0;
+	padding: 3px 0 3px 4px;
+	border: 1px solid #DDDDDD;
+	}
+
+.idxnw-mtsb-small-tbox:focus {
+	box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	-webkit-box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	-moz-box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	-o-box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	-ms-box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	transition: all 0.30s ease-in-out;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	border:1px solid rgba(99,99,200, 0.8);
+	}
+
+.idxnw-mtsb-small-submit {
+	background: #555555;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: 'Oswald', Georgia, Times New Roman, Trebuchet MS;
+	text-decoration: none;
+	text-transform: uppercase;
+    margin: 0;
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #555555;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	}
+
+.idxnw-mtsb-small-submit:hover {
+	background: #888888;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: 'Oswald', Georgia, Times New Roman, Trebuchet MS;
+	text-decoration: none;
+	text-transform: uppercase;
+    margin: 0;
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #555555;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	}
+
+/* CSS for the "[IDXNW] Multitype Search Box - Small - Style 2" widget */
+.idxnw-mtsb-small2-div {
+	width:100%;
+	margin-top:8px;
+	}
+
+.idxnw-mtsb-small2-tbox {
+	width:210px;
+	background: #F9F9F9 url(/wp-content/plugins/idx-northwest-real-estate-search-platform/images/idxnw-mtsb-small2-submit.png) no-repeat 0 0;
+	color: #333333;
+	font-family: Arial, Tahoma, Verdana;	
+	font-size: 11px;
+	margin: 6px 0 0 0;
+	padding: 6px 0 6px 10px;
+	float: left;
+	border: 1px solid #B2B2B2;	
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-topleft: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-top-left-radius: 6px;	
+	-webkit-background-clip: padding-box;	
+	-webkit-background-origin: padding-box;	
+	}
+
+.idxnw-mtsb-small2-submit {
+	background: #404040 url(/wp-content/plugins/idx-northwest-real-estate-search-platform/images/idxnw-mtsb-small2-submit.png) no-repeat 0 -40px ;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-family: Arial, Tahoma, Verdana;
+	text-decoration: none;
+	text-transform: uppercase;
+    margin: 6px 0 0 0;
+	padding: 0;
+	height: 28px;
+	width: 28px;
+	text-indent: -9999px;
+	border: 1px solid #333333;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-top-right-radius: 6px;	
+	-webkit-background-clip: padding-box;	
+	-webkit-background-origin: padding-box;
+	}
+
+.idxnw-mtsb-small2-submit:hover {
+	cursor: pointer;	
+	background: #111111 url(/wp-content/plugins/idx-northwest-real-estate-search-platform/images/idxnw-mtsb-small2-submit.png) no-repeat 0 -40px ;
+	border: 1px solid #222222;
+	}
+
+/* CSS for the "[IDXNW] Multitype Search Box - Wide" widget */
+.idxnw-mtsb-wide-div {
+	width:100%;
+	text-align:center;
+	}
+
+.idxnw-mtsb-wide-title-span {
+	color: #666666;
+	text-align:right;
+	display:inline-block;
+	font-weight:bold;
+	font-size:18px;
+	font-family:oswald;
+	vertical-align:middle;
+	padding-right:10px;
+	text-shadow:0 -1px 1px #BBBBBB;
+}
+
+.idxnw-mtsb-wide-tbox-span {
+	text-align:left;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.idxnw-mtsb-wide-tbox {
+	width:250px;
+	background: #F4F4F4 !important;
+	color: #555555;
+	font-family: 'Oswald', Georgia, Times New Roman, Trebuchet MS;
+	font-size: 12px;
+	font-style: italic;
+	margin: 0 5px 0 0;
+	padding: 3px 0 3px 4px;
+	border: 1px solid #DDDDDD;
+	}
+
+.idxnw-mtsb-wide-tbox:focus {
+	box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	-webkit-box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	-moz-box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	-o-box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	-ms-box-shadow: 0 0 5px 2px rgba(99,99,200, 0.8);
+	transition: all 0.30s ease-in-out;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	border:1px solid rgba(99,99,200, 0.8);
+	}
+
+.idxnw-mtsb-wide-submit {
+	background: #555555;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: 'Oswald', Georgia, Times New Roman, Trebuchet MS;
+	text-decoration: none;
+	text-transform: uppercase;
+    margin: 0;
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #555555;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	}
+
+.idxnw-mtsb-wide-submit:hover {
+	background: #888888;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-family: 'Oswald', Georgia, Times New Roman, Trebuchet MS;
+	text-decoration: none;
+	text-transform: uppercase;
+    margin: 0;
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #555555;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	}
+
+/* CSS for the "[IDXNW] Multitype Search Box - Wide 2" widget */
+.idxnw-mtsb-wide2-div {
+	width:100%;
+	text-align:center;
+	}
+
+.idxnw-mtsb-wide2-title-span {
+	color: #666666;
+	text-align:right;
+	display:inline-block;
+	font-weight:bold;
+	font-size:18px;
+	font-family:oswald;
+	vertical-align:middle;
+	padding-right:10px;
+	text-shadow:0 -1px 1px #BBBBBB;
+}
+
+.idxnw-mtsb-wide2-tbox-span {
+	text-align:left;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.idxnw-mtsb-wide2-tbox {
+	width:250px;
+	background: #F9F9F9 url(/wp-content/plugins/idx-northwest-real-estate-search-platform/images/idxnw-mtsb-small2-submit.png) no-repeat 0 0;
+	color: #333333;
+	font-family: Arial, Tahoma, Verdana;	
+	font-size: 11px;
+	margin: 6px 0 0 0;
+	padding: 6px 0 6px 10px;
+	float: left;
+	border: 1px solid #B2B2B2;	
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-topleft: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-top-left-radius: 6px;	
+	-webkit-background-clip: padding-box;	
+	-webkit-background-origin: padding-box;	
+	}
+
+.idxnw-mtsb-wide2-submit {
+	background: #404040 url(/wp-content/plugins/idx-northwest-real-estate-search-platform/images/idxnw-mtsb-small2-submit.png) no-repeat 0 -40px ;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-family: Arial, Tahoma, Verdana;
+	text-decoration: none;
+	text-transform: uppercase;
+    margin: 6px 0 0 0;
+	padding: 0;
+	height: 28px;
+	width: 28px;
+	text-indent: -9999px;
+	border: 1px solid #333333;
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-moz-border-radius-topright: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-webkit-border-top-right-radius: 6px;	
+	-webkit-background-clip: padding-box;	
+	-webkit-background-origin: padding-box;
+	}
+
+.idxnw-mtsb-wide2-submit:hover {
+	cursor: pointer;	
+	background: #111111 url(/wp-content/plugins/idx-northwest-real-estate-search-platform/images/idxnw-mtsb-small2-submit.png) no-repeat 0 -40px ;
+	border: 1px solid #222222;
+	}
